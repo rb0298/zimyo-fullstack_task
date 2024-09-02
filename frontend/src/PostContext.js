@@ -1,20 +1,14 @@
 import { createContext, useContext, useMemo, useState } from "react";
-import { faker } from "@faker-js/faker";
-
-function createRandomPost() {
-  return {
-    title: `${faker.hacker.adjective()} ${faker.hacker.noun()}`,
-    body: faker.hacker.phrase(),
-  };
-}
+import { createRandomPost } from "./utils/createRandomPost";
 
 // 1) CREATE A CONTEXT
 const PostContext = createContext();
 
 function PostProvider({ children }) {
   const [posts, setPosts] = useState(() =>
-    Array.from({ length: 30 }, () => createRandomPost())
+    Array.from({ length: 30 }, createRandomPost)
   );
+
   const [searchQuery, setSearchQuery] = useState("");
 
   // Derived state. These are the posts that will actually be displayed

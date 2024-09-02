@@ -1,19 +1,36 @@
-# Getting Started with Create React App
+# Atomic Blog - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the frontend repository of **Atomic Blog**! This is a React.js application that allows users to post and manage their blogs.
 
-## Available Scripts
+## Technology Stack
 
-In the project directory, you can run:
+- **React.js**: A JavaScript library for building user interfaces.
+- **CSS**: For styling and layout.
+- **@faker-js/faker**: A library used to generate fake data for development and testing.
+- **Context API**: A React feature used for state management across the application.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Blog Posts**: Users can add blog posts.
+- **Dynamic Data**: Fake data generation with `@faker-js/faker` for development purposes.
+- **Context API**: Utilized for managing and sharing application state.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### Code Splitting
+To get started with the frontend development, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/rb0298/zimyo-fullstack_task
+   Navigate to the Frontend Folder
+
+   ```
+
+2. **Install Dependencies**
+   npm install
+
+3. **To start the development server:**
+   npm start
