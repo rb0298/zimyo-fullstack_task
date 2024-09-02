@@ -34,3 +34,7 @@ To get started with the frontend development, follow these steps:
 
 3. **To start the development server:**
    npm start
+
+## Deployed
+
+The application is deployed and can be accessed at [https://atomic-blog-apps.netlify.app](https://atomic-blog-apps.netlify.app).
